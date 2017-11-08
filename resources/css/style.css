@@ -1,7 +1,10 @@
-/* font-family: 'Monoton', cursive; */
-/* font-family: 'Open Sans', sans-serif; */
+/* FONT LIST
+   font-family: 'Monoton', cursive;
+   font-family: 'Open Sans', sans-serif; */
 
+/* Universal Styles */
 div {
+  /* used for deveolping only (setting border to 1px to see all div boxes)*/
   border: 0px solid red;
 }
 
@@ -14,7 +17,24 @@ body {
   padding-top: 50px;
 }
 
-/* Body: Responsive design (mobile) */
+/* Image-container */
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transition: scale(1.3);
+}
+
+/* Universal Styles: Responsive design (mobile) */
 @media only screen and (max-width: 470px) {
   body {
     padding-top: 130px;
@@ -103,7 +123,6 @@ body {
 /* Feature Project */
 #featureProject img {
   width: 100%;
-  opacity: 0.7;
 }
 
 #featureProject h1 {
@@ -137,7 +156,6 @@ body {
 /* Projects */
 #projects img {
   width: 100%;
-  opacity: 0.7;
 }
 
 #projects h1 {
