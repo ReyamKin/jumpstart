@@ -58,6 +58,7 @@ img {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
+  transition: .7s background;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -76,55 +77,75 @@ img {
 }
 
 /* Jumbotron */
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 .jumbotron-bike {
   background-image: url("../../images/jumbotron-bike.jpg");
-  text-align: center;
 }
 
 .jumbotron-beer {
   background-image: url("../../images/jumbotron-beer.jpg");
-  text-align: center;
 }
 
 .jumbotron-flowers {
   background-image: url("../../images/jumbotron-flowers.jpg");
-  text-align: center;
 }
 
 .jumbotron-duffel {
   background-image: url("../../images/jumbotron-duffel.jpg");
-  text-align: center;
 }
 
 .jumbotron h1 {
   font-family: 'Monoton', cursive;
   font-size: 7.1rem;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
 }
 
 .jumbotron p {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
   max-width: 51.3rem;
   margin: 0 auto;
 }
 
-.jumbotron a {
+.jumbotronButton a {
   margin-top: 2.8rem;
-  margin-bottom: 11.85rem;
-  padding: 1.3rem 0 1.3rem 0;
+  border: 0;
+  padding: 1.3rem 0;
   background-color: #399bd1;
   width: 11.4rem;
   box-shadow: 0 0 .214rem rgba(0,0,0,0.5);
+  transition: .5s box-shadow;
 }
 
-.jumbotron a:hover {
+.jumbotronButton a:hover {
   box-shadow: 0 0 1.16rem rgba(0,0,0,0.9);
 }
 
-.jumbotron a:active {
+.jumbotronButton a:active {
   box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.jumbotronButton {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* slick override */
+.slick-slide {
+  outline: none;
 }
 
 /* Jumbotron: Responsive design (mobile) */
@@ -139,6 +160,10 @@ img {
 }
 
 /* Feature Project */
+#featureProject {
+  margin-top: -5rem;
+}
+
 #featureProject h1 {
   font-size: 1.7rem;
   font-weight: bold;
@@ -155,10 +180,6 @@ img {
 #featureProject p {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
-}
-
-#featureProject .image-container {
-  height: 19rem;
 }
 
 /* Feature Project: Responsive design (mobile) */
@@ -195,6 +216,7 @@ img {
 }
 
 #projects {
+  margin-top: 2rem;
   margin-bottom: 5.85rem;
 }
 
@@ -233,6 +255,7 @@ img {
   background-color: #399bd1;
   width: 11.4rem;
   box-shadow: 0 0 .214rem rgba(0,0,0,0.5);
+  transition: .5s box-shadow;
 }
 
 #havingTrouble a:hover {
