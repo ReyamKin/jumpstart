@@ -17,6 +17,10 @@ body {
   padding-top: 50px;
 }
 
+img {
+  width: 100%;
+}
+
 /* Image-container */
 .image-container {
   overflow: hidden;
@@ -119,12 +123,7 @@ body {
   }
 }
 
-
 /* Feature Project */
-#featureProject img {
-  width: 100%;
-}
-
 #featureProject h1 {
   font-size: 1.7rem;
   font-weight: bold;
@@ -134,11 +133,17 @@ body {
 #featureProject h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 #featureProject p {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
+}
+
+#featureProject .image-container {
+  height: 19rem;
 }
 
 /* Feature Project: Responsive design (mobile) */
