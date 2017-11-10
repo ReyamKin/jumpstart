@@ -39,7 +39,7 @@ img {
 }
 
 /* Universal Styles: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   body {
     padding-top: 130px;
   }
@@ -70,7 +70,7 @@ img {
 }
 
 /* Nav: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   #navbar img {
     display: none;
   }
@@ -149,7 +149,7 @@ img {
 }
 
 /* Jumbotron: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   .jumbotron h1 {
     font-size: 5.7rem;
   }
@@ -183,7 +183,7 @@ img {
 }
 
 /* Feature Project: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   #featureProject .col-lg-3 {
     max-width: 16.42rem;
   }
@@ -221,7 +221,7 @@ img {
 }
 
 /* Projects: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   #customP {
     margin-bottom: 5rem;
   }
@@ -267,7 +267,7 @@ img {
 }
 
 /* Footer-Having Trouble: Responsive design (mobile) */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
   #havingTrouble p {
     max-width: 30rem;
   }
